@@ -12,7 +12,7 @@ var bio = {
         "location": "Staten Island"
     },
     "welcomeMessage": "Hello, As an ambitious problem solver with a passion for web development and Unix/Linux. I would like to join a team of like-minded professional that also share this enthusiasm. I have the experience and education of creating logical and innovative design. I also continually evaluating and upgrading my skills so that I can stay at the cutting edge of web development.  ",
-    "skills": ["HTML/CSS", "JavaScript/Jquery", "Python", "Unix/Linux", "Shell(sh,bash,csh)", "SQL"],
+    "skills": ["HTML/CSS", "JavaScript/Jquery", "Python", "Unix/Linux", "Bash Scripting"],
     "biopic": "images/ez.png",
 };
 
@@ -70,11 +70,19 @@ bio.display = function() {
 
 // Work Section here I add my expirence and work history
 var work = {
-    "jobs": [{
+    "jobs": [
+    {
+        "employer": "STI Group",
+        "title": "Linux Engineer",
+        "location": "Glen Rock, NJ",
+        "dates": "2016 - Present",
+        "website": "https://stig.net/",
+        "description": "As Linux Engineer involves not the only implementation of Linux technologies and Cloud systems with automation tools, I also integrated it with security-hardening. Core responsibilities are to implement and integration of complex networking and technologies."
+    }, {
         "employer": "ITG",
         "title": "TD Admin",
         "location": "New York, NY",
-        "dates": "2015 - Present",
+        "dates": "2015 - 2016",
         "website": "http://itg.com",
         "description": "Troubleshoot trading application issues, determine sources of problems, and identify solutions for internal clients: troubleshoot and report ing Solaris and window 7, Java application including JBoss, Tomcat and internal application, Perform application deployments to staging and production environments, design and develop specialized automation tools, scripts using (shell,bash,perl,python, java) administration and performance monitoring of system (Storage,File system, permission) administration trade desk application Microsoft SCCM, Office 2007/2010/2013 (word,excel.,outlook)"
     }, {
